@@ -3,10 +3,11 @@ int num = 10;
 public void setup()
 {
 	size(600,600);
+	frameRate(30);
 }
 public void draw()
 {	
-	num++;
+	num+=5;
 	background(0);
 	trypo(300,300,num);
 	
