@@ -12,7 +12,7 @@ public void ogFractal(int x, int y, int len) {
   ellipse(x,y+len,len,len);
   fill((float)255,(float)248,(float)13);
   ellipse(x+len,y+len,len,len);
-  if (len >= 20) {
+  if (len >= 10) {
     ogFractal(x-len/5,y-len/5,(int)(len/2.5));
     ogFractal(x+4*len/5,y-len/5,(int)(len/2.5));
     ogFractal(x+4*len/5,y+4*len/5,(int)(len/2.5));
